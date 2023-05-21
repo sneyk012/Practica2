@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SignIn_Alpha</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            /* Add padding to containers */
+            .container {
+                padding: 16px;
+                background-color: white;
+            }
+            
+            /* Full-width input fields */
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+            
+            input[type=text]:focus, input[type=password]:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+            
+            /* Overwrite default styles of hr */
+            hr {
+                border: 1px solid #f1f1f1;
+                margin-bottom: 25px;
+            }
+            
+            /* Set a style for the submit button */
+            .registerbtn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+            
+            .registerbtn:hover {
+                opacity: 1;
+            }
+            
+            /* Add a blue text color to links */
+            a {
+                color: dodgerblue;
+            }
+            
+            /* Set a grey background color and center the text of the "sign in" section */
+            .signin {
+                background-color: #f1f1f1;
+                text-align: center;
+            }
+            </style>
+	</head>
+	<body class="landing is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1><a href="index.html">Project Alpha</a> by Vladimir Zheleznyy</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">Страницы</a>
+								<ul>
+									<li><a href="generic.html">Стоимость</a></li>
+									<li><a href="contact.html">Контакты</a></li>
+									<li><a href="elements.html">Элементы проекта</a></li>
+                                    <li><a href="company.html">Полезное</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option One</a></li>
+											<li><a href="#">Option Two</a></li>
+											<li><a href="#">Option Three</a></li>
+											<li><a href="#">Option Four</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="singin.html" class="button">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<h2>Alpha</h2>
+					<p>Агентство недвижимости</p>
+					<ul class="actions special">
+						<li><a href="singin.html" class="button primary">Sign Up</a></li>
+						<li><a href="generic.html" class="button">Learn More</a></li>
+					</ul>
+				</section>
+
+                <form action="/action_page.php">
+                    <div class="container">
+                      <h1>Sign In</h1>
+                      <hr>
+                  
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                      <button type="submit" class="registerbtn">Sign In</button>
+                    </div>
+                    
+                    <div class="container signin">
+                      <p>You don't have an account? <a href="register.html">Register</a>.</p>
+                    </div>
+                  </form>
+
+                  <footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="https://www.google.ru" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+				</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
